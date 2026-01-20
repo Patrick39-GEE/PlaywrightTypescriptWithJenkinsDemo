@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1","Test3","chromium","2026-01-20","skipped","2026-01-20","","Chapter03\02_Grouping_Test.spec.ts","",""
+"","0","Test2","chromium","2026-01-20","skipped","2026-01-20","","Chapter03\02_Grouping_Test.spec.ts","",""
+"","23544","Test2","chromium","2026-01-20","passed","2026-01-20","regressionTesting","Chapter03\02_Grouping_Test.spec.ts","",""
+"","1","Test1","chromium","2026-01-20","skipped","2026-01-20","","Chapter03\02_Grouping_Test.spec.ts","",""
+"","30306","Test1","chromium","2026-01-20","broken","2026-01-20","smokeTesting","Chapter03\02_Grouping_Test.spec.ts","",""
+"","18468","Test3","chromium","2026-01-20","passed","2026-01-20","regressionTesting","Chapter03\02_Grouping_Test.spec.ts","",""

@@ -1,0 +1,77 @@
+<testsuites id="" name="" tests="6" failures="1" skipped="3" errors="0" time="77.65141999999999">
+<testsuite name="Chapter03\02_Grouping_Test.spec.ts" timestamp="2026-01-20T19:46:12.700Z" hostname="chromium" tests="6" failures="1" skipped="3" time="72.318" errors="0">
+<testcase name="smokeTesting › Test1" classname="Chapter03\02_Grouping_Test.spec.ts" time="30.306">
+<failure message="02_Grouping_Test.spec.ts:6:9 Test1" type="FAILURE">
+<![CDATA[  [chromium] › Chapter03\02_Grouping_Test.spec.ts:6:9 › smokeTesting › Test1 ───────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('link', { name: /Playwright by Testers Talk/i }).first()
+
+
+      20 |         await search.press('Enter');
+      21 |         const channelLink = page.getByRole('link', { name: /Playwright by Testers Talk/i }).first();
+    > 22 |         await channelLink.click();
+         |                           ^
+      23 |
+      24 |         // Click on playlist
+      25 |         const playlistLink = page.getByRole('link', { name: /#1 Playwright Tutorial Full/i }).first();
+        at C:\PLAYWRIGHTTYPESCRIPT\tests\Chapter03\02_Grouping_Test.spec.ts:22:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Chapter03-02_Grouping_Test-smokeTesting-Test1-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Chapter03-02_Grouping_Test-smokeTesting-Test1-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter03-02_Grouping_Test-smokeTesting-Test1-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Chapter03-02_Grouping_Test-smokeTesting-Test1-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="regressionTesting › Test2" classname="Chapter03\02_Grouping_Test.spec.ts" time="23.544">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter03-02_Grouping_Test-regressionTesting-Test2-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="regressionTesting › Test3" classname="Chapter03\02_Grouping_Test.spec.ts" time="18.468">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter03-02_Grouping_Test-regressionTesting-Test3-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test1" classname="Chapter03\02_Grouping_Test.spec.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Test2" classname="Chapter03\02_Grouping_Test.spec.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Test3" classname="Chapter03\02_Grouping_Test.spec.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>

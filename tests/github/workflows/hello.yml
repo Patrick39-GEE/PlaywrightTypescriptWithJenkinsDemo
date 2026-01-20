@@ -1,0 +1,17 @@
+name : hello word
+
+on:
+  push:
+    branches:
+      - 'main' 
+  pull_request:
+    branches:
+     - 'main'
+
+     jobs:
+       hello:
+          runs-on: ubuntu-latest
+  
+          steps:
+            - name: Hello World Action
+              run: echo "Hello, World!"
